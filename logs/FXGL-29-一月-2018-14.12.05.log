@@ -1,0 +1,371 @@
+14:10:39.287 [JavaFX Application Thread] DEBUG GameApplication      - Logger initialized
+14:10:39.734 [JavaFX Application Thread] DEBUG GameApplication      - Starting FXGL
+14:10:39.734 [JavaFX Application Thread] INFO  Version              - FXGL-0.4.0
+14:10:39.735 [JavaFX Application Thread] INFO  Version              - Source code and latest versions at: https://github.com/AlmasB/FXGL
+14:10:39.735 [JavaFX Application Thread] INFO  Version              -              Join the FXGL chat at: https://gitter.im/AlmasB/FXGL
+14:10:39.894 [FXGL Launcher Thread     ] DEBUG FXGL                 - Loading default FXGL system data
+14:10:39.896 [FXGL Launcher Thread     ] DEBUG GameApplication      - FXGL configuration complete
+14:10:39.898 [FXGL Launcher Thread     ] INFO  GameApplication      - FXGL configuration took:  0.104 sec
+14:10:39.899 [FXGL Launcher Thread     ] DEBUG GameApplication      - Logging game settings
+Title: Reverse Pac-man
+Version: 0.4
+Width: 1680
+Height: 840
+Fullscreen: false
+Intro: false
+Menus: false
+Profiling: false
+Single step:false
+App Mode: DEVELOPER
+Menu Key: ESCAPE
+Stage Style: DECORATED
+Scene Factory: class com.almasb.fxgl.scene.SceneFactory
+Dialog Factory: class com.almasb.fxgl.ui.FXGLDialogFactory
+UI Factory: class com.almasb.fxgl.ui.FXGLUIFactory
+Notification Service: class com.almasb.fxgl.gameplay.notification.XboxNotificationView
+Exception Handler: class com.almasb.fxgl.app.FXGLExceptionHandler
+14:10:39.987 [JavaFX Application Thread] DEBUG UpdaterTask          - Checking for updates
+14:10:40.111 [JavaFX Application Thread] DEBUG IOTask               - Showing dialog
+14:10:40.117 [FXGL Background Thread 1 ] DEBUG IOTask               - Executing task: openStream(https://raw.githubusercontent.com/AlmasB/FXGL/master/pom.xml)
+14:10:40.117 [FXGL Background Thread 1 ] DEBUG IOTask               - Executing task: openStream(https://raw.githubusercontent.com/AlmasB/FXGL/master/pom.xml)
+14:10:42.930 [FXGL Launcher Thread     ] DEBUG GameApplication      - Configuring GameApplication
+14:10:42.934 [FXGL Launcher Thread     ] DEBUG AppStateMachine      - Initializing application states
+14:10:42.944 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/ui/cursors/fxgl_default.png
+14:10:42.958 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/ui/cursors/fxgl_default.png
+14:10:42.964 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/sounds/core/notification.wav
+14:10:42.987 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/sounds/menu/select.wav
+14:10:42.989 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/sounds/menu/back.wav
+14:10:42.991 [FXGL Background Thread 1 ] DEBUG IOTask               - Executing task: latestVersion
+14:10:42.992 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/sounds/menu/press.wav
+14:10:42.996 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/ui/fonts/VarelaRound-Regular.ttf
+14:10:43.015 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/ui/fonts/lucida_console.ttf
+14:10:43.026 [JavaFX Application Thread] DEBUG IOTask               - succeed(): Dismissing dialog
+14:10:43.026 [JavaFX Application Thread] DEBUG IOTask               - Task succeeded: openStream(https://raw.githubusercontent.com/AlmasB/FXGL/master/pom.xml)
+14:10:43.031 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/ui/css/fxgl_dark.css
+14:10:43.032 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/ui/icons/fxgl_icon.png
+14:10:43.061 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/ui/cursors/fxgl_default.png
+14:10:43.085 [FXGL Launcher Thread     ] DEBUG FXGL.GameScene       - Game scene initialized: 1680x840
+14:10:43.088 [FXGL Launcher Thread     ] DEBUG FXGL.GameWorld       - Game world initialized
+14:10:43.136 [FXGL Launcher Thread     ] DEBUG FXGL.PhysicsWorld    - Physics world initialized: appHeight=840, physics.ppm=50.0
+14:10:43.139 [FXGL Launcher Thread     ] DEBUG Input                - Registered new binding: Pause - Esc
+14:10:43.150 [FXGL Launcher Thread     ] INFO  GameApplication      - Game configuration took:  0.219 sec
+14:10:43.193 [JavaFX Application Thread] DEBUG MainWindow           - Target size: 1680.0 x 840.0 @ 1.0
+14:10:43.193 [JavaFX Application Thread] DEBUG MainWindow           - New size:    1680.0 x 840.0 @ 1.0
+14:10:43.193 [JavaFX Application Thread] DEBUG MainWindow           - Opening main window
+14:10:43.244 [JavaFX Application Thread] DEBUG MainWindow           - Root size:  1680.0x840.0
+14:10:43.244 [JavaFX Application Thread] DEBUG MainWindow           - Scene size: 1680.0x840.0
+14:10:43.245 [JavaFX Application Thread] DEBUG MainWindow           - Stage size: 1686.0x875.0
+14:10:43.245 [JavaFX Application Thread] DEBUG GameApplication      - Running preInit()
+14:10:43.450 [JavaFX Application Thread] DEBUG AnnotationParser     - @SetAchievementStore: []
+14:10:43.452 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Screenshot - P
+14:10:43.452 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Dev Options - CTRL+0
+14:10:43.453 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Up - Up
+14:10:43.453 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Down - Down
+14:10:43.453 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Left - Left
+14:10:43.453 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Right - Right
+14:10:43.526 [JavaFX Application Thread] DEBUG GameApplication      - Starting main loop
+14:10:43.534 [JavaFX Application Thread] DEBUG StartupState         - STARTUP
+14:10:43.534 [JavaFX Application Thread] DEBUG GameApplication      - Starting new game
+14:10:43.535 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+14:10:43.535 [JavaFX Application Thread] DEBUG AppStateMachine      - StartupState -> LoadingState
+14:10:43.567 [JavaFX Application Thread] DEBUG InitAppTask          - Parsing annotations
+14:10:43.889 [JavaFX Application Thread] DEBUG AnnotationParser     - @SetEventHandler: []
+14:10:43.890 [JavaFX Application Thread] DEBUG AnnotationParser     - @AddCollisionHandler: [PlayerCoinHandler]
+14:10:43.890 [JavaFX Application Thread] DEBUG AnnotationParser     - @SetEntityFactory: [PacmanFactory]
+14:10:43.894 [FXGL Background Thread 1 ] DEBUG InitAppTask          - Clearing previous game
+14:10:43.894 [FXGL Background Thread 1 ] DEBUG FXGL.GameWorld       - Clearing game world
+14:10:43.896 [FXGL Background Thread 1 ] DEBUG FXGL.PhysicsWorld    - Clearing physics world
+14:10:43.896 [FXGL Background Thread 1 ] DEBUG FXGL.GameScene       - Clearing game scene
+14:10:43.896 [FXGL Background Thread 1 ] DEBUG InitAppTask          - Initializing Assets
+14:10:43.897 [FXGL Background Thread 1 ] DEBUG InitAppTask          - Initializing Game
+14:10:43.927 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from disk: /assets/text/pacman_level0.txt
+14:10:44.013 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from disk: /assets/textures/coin.png
+14:10:44.021 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.022 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.023 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.026 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.027 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.028 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.029 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.030 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.032 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.033 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.034 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.035 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.036 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.038 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.039 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.041 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.042 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.043 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.046 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.048 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.049 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.052 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.053 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.054 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.056 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.058 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.059 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.061 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.063 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.064 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.065 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.066 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.068 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.069 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.070 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.071 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.072 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.074 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.075 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.077 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.078 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.079 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.079 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.080 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.081 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.081 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.082 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.083 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.084 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.084 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.085 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.086 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.086 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.088 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.089 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.091 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.092 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.093 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.094 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.095 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.096 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.097 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.098 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.099 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.100 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.101 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.103 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.103 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.104 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.105 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.105 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.106 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.107 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.108 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.108 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.109 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.110 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.111 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.112 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.112 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.113 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.114 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.114 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.115 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.116 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.116 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.117 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.118 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.118 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.119 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.120 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.120 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.121 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.121 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.122 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.122 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.123 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.124 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.125 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.125 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.126 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.127 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.128 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.128 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.129 [FXGL Background Thread 1 ] WARN  FXGL.TextLevelParser - No producer found for character: E
+14:10:44.130 [FXGL Background Thread 1 ] WARN  FXGL.TextLevelParser - No producer found for character: E
+14:10:44.130 [FXGL Background Thread 1 ] WARN  FXGL.TextLevelParser - No producer found for character: E
+14:10:44.131 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.131 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.133 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.133 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.134 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.135 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.135 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.136 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.136 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.137 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.138 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.139 [FXGL Background Thread 1 ] WARN  FXGL.TextLevelParser - No producer found for character: E
+14:10:44.139 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.140 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.141 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.141 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.142 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.143 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.144 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.145 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.145 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.146 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.148 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.149 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.149 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.150 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.151 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.151 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.153 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.154 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.154 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.155 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.155 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.156 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.157 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.157 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.158 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.158 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.159 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.159 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.160 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.160 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.161 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.161 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.162 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.162 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.163 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.163 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.164 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.165 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.165 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.165 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.167 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.168 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.171 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.173 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.175 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.175 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.176 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.176 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.177 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.178 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.178 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.178 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.179 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.179 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.180 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.180 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.181 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.181 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.182 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.183 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.183 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.184 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.185 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.186 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.187 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.188 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.188 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.189 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.190 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.191 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.192 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.192 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.193 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.194 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.194 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.195 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.196 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.196 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.196 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.197 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.197 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.198 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.199 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.200 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.200 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.201 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.202 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.203 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.203 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.204 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.204 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.205 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.205 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.206 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.207 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.207 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.207 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.208 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.208 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.209 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.209 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.210 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.210 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.212 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.213 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.213 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.213 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.213 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.214 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.214 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.215 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.216 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.216 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.217 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.217 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.218 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.218 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.218 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.219 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.219 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.220 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.222 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.222 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.223 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.225 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.225 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.226 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.226 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.226 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.227 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.227 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.227 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.228 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.228 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.228 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.228 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from disk: /assets/textures/player.png
+14:10:44.234 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.235 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.235 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.236 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.236 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.237 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.237 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.238 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.238 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/coin.png
+14:10:44.242 [FXGL Background Thread 1 ] DEBUG FXGL.GameWorld       - Clearing removable entities
+14:10:44.243 [FXGL Background Thread 1 ] DEBUG FXGL.GameWorld       - Setting level: com.almasb.fxgl.gameplay.Level@4db61158
+14:10:44.246 [FXGL Background Thread 1 ] DEBUG FXGL.GameScene       - Creating render group for layer: BACKGROUND(1000)
+14:10:44.272 [FXGL Background Thread 1 ] DEBUG FXGL.GameScene       - Creating render group for layer: TOP(2147483647)
+14:10:44.276 [FXGL Background Thread 1 ] DEBUG InitAppTask          - Initializing Physics
+14:10:44.277 [FXGL Background Thread 1 ] DEBUG InitAppTask          - Initializing UI
+14:10:44.277 [FXGL Background Thread 1 ] DEBUG InitAppTask          - Initialization Complete
+14:10:44.278 [FXGL Background Thread 1 ] INFO  InitAppTask          - Game initialization took: 0.384 sec
+14:10:44.280 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+14:10:44.280 [JavaFX Application Thread] DEBUG AppStateMachine      - LoadingState -> PlayState
+14:12:04.059 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from disk: /assets/properties/languages/english.properties
+14:12:04.062 [JavaFX Application Thread] DEBUG AppStateMachine      - Push state: DialogSubState
+14:12:04.062 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+14:12:04.062 [JavaFX Application Thread] DEBUG AppStateMachine      - PlayState -> DialogSubState
+14:12:05.756 [JavaFX Application Thread] DEBUG AppStateMachine      - Pop state: DialogSubState
+14:12:05.756 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+14:12:05.756 [JavaFX Application Thread] DEBUG AppStateMachine      - PlayState <- DialogSubState
+14:12:05.757 [JavaFX Application Thread] DEBUG GameApplication      - Exiting game application
+14:12:05.759 [JavaFX Application Thread] DEBUG GameApplication      - Shutting down background threads
+14:12:05.760 [JavaFX Application Thread] DEBUG GameApplication      - Exiting FXGL
+14:12:05.760 [JavaFX Application Thread] DEBUG FXGL                 - Saving FXGL system data
+14:12:05.766 [JavaFX Application Thread] DEBUG IOTask               - Executing task: writeDataTask(system/fxgl.bundle)
+14:12:05.771 [JavaFX Application Thread] DEBUG FS                   - Writing to: system\fxgl.bundle
+14:12:05.784 [JavaFX Application Thread] DEBUG IOTask               - Task succeeded: writeDataTask(system/fxgl.bundle)
+14:12:05.784 [JavaFX Application Thread] DEBUG GameApplication      - Closing logger and exiting JavaFX
